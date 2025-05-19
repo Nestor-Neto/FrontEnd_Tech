@@ -1,17 +1,11 @@
 module.exports = {
-  moduleFileExtensions: [
-    'js',
-    'jsx',
-    'json',
-    'vue'
-  ],
   transform: {
-    '^.+\\.vue$': 'vue-jest',
-    '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
-    '^.+\\.jsx?$': 'babel-jest'
+    '^.+\\.js$': 'babel-jest'
   },
+  testEnvironment: 'node',
+  moduleFileExtensions: ['js', 'json'],
   transformIgnorePatterns: [
-    '/node_modules/'
+    'node_modules/(?!(axios)/)'
   ],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
@@ -26,5 +20,8 @@ module.exports = {
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname'
-  ]
+  ],
+  setupFiles: ['<rootDir>/tests/setup.js'],
+  testTimeout: 30000,
+  forceExit: true
 }

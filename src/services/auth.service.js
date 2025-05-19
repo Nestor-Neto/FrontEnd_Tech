@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios').default
 
 const API_URL = 'http://localhost:3000'
 
@@ -34,4 +34,4 @@ class AuthService {
   }
 }
 
-export default new AuthService()
+module.exports = new AuthService()

@@ -1,6 +1,15 @@
-import axios from 'axios'
+const axios = require('axios').default
 
 const API_URL = 'http://localhost:3000'
+
+class UserServiceError extends Error {
+  constructor (message, originalError, context) {
+    super(message)
+    this.name = 'UserServiceError'
+    this.originalError = originalError
+    this.context = context
+  }
+}
 
 class UserService {
   async registerUser (userData) {
@@ -16,7 +25,12 @@ class UserService {
       return response.data
     } catch (error) {
       console.error('Erro ao registrar usuário:', error)
-      throw error
+      throw new UserServiceError('Falha ao registrar usuário', error, {
+        userData: {
+          ...userData,
+          password: '[REDACTED]'
+        }
+      })
     }
   }
 
@@ -32,9 +46,12 @@ class UserService {
       return response.data
     } catch (error) {
       console.error('Erro ao atualizar perfil:', error)
-      throw error
+      throw new UserServiceError('Falha ao atualizar perfil', error, {
+        id,
+        userData
+      })
     }
   }
 }
 
-export default new UserService() 
+module.exports = new UserService() 
