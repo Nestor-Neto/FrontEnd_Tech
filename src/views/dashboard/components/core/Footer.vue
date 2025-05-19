@@ -41,6 +41,28 @@
   </v-footer>
 </template>
 
+<script>
+export default {
+  name: 'DashboardCoreFooter',
+  data: () => ({
+    links: [
+      {
+        href: '#',
+        text: 'Sobre'
+      },
+      {
+        href: '#',
+        text: 'Blog'
+      },
+      {
+        href: '#',
+        text: 'Licenças'
+      }
+    ]
+  })
+}
+</script>
+
 <style lang="sass">
   #dashboard-core-footer
     a
