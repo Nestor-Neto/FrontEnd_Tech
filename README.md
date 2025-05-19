@@ -300,10 +300,10 @@ npm run test:e2e -- --open
   <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="600" height="600"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela03.png" alt="Digite email e senha" width="600" height="600"/>
+  <img src="docs/telas/tela03.png" alt="Digite email e senha" width="300" height="600"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="600" height="600"/>
+  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="850" height="700"/>
 </p>
 <p align="center">
   <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="600" height="600"/>
