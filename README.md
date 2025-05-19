@@ -294,7 +294,7 @@ npm run test:e2e -- --open
 > ⚠️ **Importante**: Para o primeiro acesso, clique em registrar-se.
 
 <p align="center">
-  <img src="docs/telas/tela01.png" alt="Inicial de login" width="300" height="600"/>
+  <img src="docs/telas/tela01.png" alt="Inicial de login" width="300" height="300"/>
 </p>
 <p align="center">
   <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="300" height="600"/>
