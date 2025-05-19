@@ -303,19 +303,19 @@ npm run test:e2e -- --open
   <img src="docs/telas/tela03.png" alt="Digite email e senha" width="339" height="361"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="1024" height="990"/>
+  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="1024" height="700"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="600" height="600"/>
+  <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="1024" height="750"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela06.png" alt="Cadastro de usuários" width="600" height="600"/>
+  <img src="docs/telas/tela06.png" alt="Cadastro de usuários" width="1024" height="650"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela07.png" alt="Editar perfil" width="600" height="600"/>
+  <img src="docs/telas/tela07.png" alt="Editar perfil" width="1024" height="850"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela08.png" alt="Botão sair" width="600" height="600"/>
+  <img src="docs/telas/tela08.png" alt="Botão sair" width="1024" height="800"/>
 </p>
 
 ## 🌐 Internacionalização
