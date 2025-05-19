@@ -294,16 +294,16 @@ npm run test:e2e -- --open
 > ⚠️ **Importante**: Para o primeiro acesso, clique em registrar-se.
 
 <p align="center">
-  <img src="docs/telas/tela01.png" alt="Inicial de login" width="300" height="300"/>
+  <img src="docs/telas/tela01.png" alt="Inicial de login" width="349" height="385"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="600" height="600"/>
+  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="600" height="516"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela03.png" alt="Digite email e senha" width="300" height="300"/>
+  <img src="docs/telas/tela03.png" alt="Digite email e senha" width="339" height="361"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="900" height="900"/>
+  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="1334" height="635"/>
 </p>
 <p align="center">
   <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="600" height="600"/>
