@@ -303,7 +303,7 @@ npm run test:e2e -- --open
   <img src="docs/telas/tela03.png" alt="Digite email e senha" width="339" height="361"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="1334" height="1334"/>
+  <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="1024" height="990"/>
 </p>
 <p align="center">
   <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="600" height="600"/>
