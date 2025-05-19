@@ -297,7 +297,7 @@ npm run test:e2e -- --open
   <img src="docs/telas/tela01.png" alt="Inicial de login" width="300"/>
 </p>
 <p align="center">
-  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="300"/>
+  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="600"/>
 </p>
 <p align="center">
   <img src="docs/telas/tela03.png" alt="Digite email e senha" width="300"/>
