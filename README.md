@@ -295,12 +295,26 @@ npm run test:e2e -- --open
 
 <p align="center">
   <img src="docs/telas/tela01.png" alt="Inicial de login" width="250"/>
-  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar " width="250"/>
+</p>
+<p align="center">
+  <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela03.png" alt="Digite email e senha" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela06.png" alt="Cadastro de usuários" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela07.png" alt="Editar perfil" width="250"/>
+</p>
+<p align="center">
   <img src="docs/telas/tela08.png" alt="Botão sair" width="250"/>
 </p>
 
