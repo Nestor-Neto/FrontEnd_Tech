@@ -55,10 +55,13 @@ export default {
       this.loading = true
       this.error = null
       try {
-        await AuthService.login(this.email, this.password)
+        console.log('Iniciando tentativa de login...')
+        const response = await AuthService.login(this.email, this.password)
+        console.log('Login bem sucedido:', response)
         this.$router.push('/')
       } catch (err) {
-        this.error = 'Email ou senha inválidos'
+        console.error('Erro durante o login:', err)
+        this.error = err.response?.data?.message || 'Email ou senha inválidos'
       } finally {
         this.loading = false
       }

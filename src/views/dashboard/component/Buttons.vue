@@ -237,112 +237,110 @@
             </v-btn-toggle>
           </v-col>
 
-          <template v-for="(s, i) in social">
-            <v-col
-              :key="i"
-              cols="12"
-              class="py-1"
+          <v-col
+            v-for="(s, i) in social"
+            :key="i"
+            cols="12"
+            class="py-1"
+          >
+            <base-subheading
+              v-if="i === 0"
             >
-              <base-subheading
-                v-if="i === 0"
-                :key="`heading-${i}`"
+              <h5 class="font-weight-light">
+                Social buttons
+              </h5>
+            </base-subheading>
+
+            <v-row dense>
+              <v-col
+                cols="auto"
+                md="4"
+                sm="5"
               >
-                <h5 class="font-weight-light">
-                  Social buttons
-                </h5>
-              </base-subheading>
-
-              <v-row dense>
-                <v-col
-                  cols="auto"
-                  md="4"
-                  sm="5"
+                <v-btn
+                  elevation="1"
+                  :color="s.color"
+                  dark
                 >
-                  <v-btn
-                    elevation="1"
-                    :color="s.color"
-                    dark
-                  >
-                    <v-icon
-                      left
-                      v-text="s.icon"
-                    />
-                    {{ s.text }}
-                  </v-btn>
-                </v-col>
+                  <v-icon
+                    left
+                    v-text="s.icon"
+                  />
+                  {{ s.text }}
+                </v-btn>
+              </v-col>
 
-                <v-col
-                  cols="auto"
-                  md="1"
-                  sm="1"
+              <v-col
+                cols="auto"
+                md="1"
+                sm="1"
+              >
+                <v-btn
+                  elevation="1"
+                  :color="s.color"
+                  dark
+                  min-width="0"
+                  max-width="41"
                 >
-                  <v-btn
-                    elevation="1"
-                    :color="s.color"
-                    dark
-                    min-width="0"
-                    max-width="41"
-                  >
-                    <v-icon v-text="s.icon" />
-                  </v-btn>
-                </v-col>
+                  <v-icon v-text="s.icon" />
+                </v-btn>
+              </v-col>
 
-                <v-col
-                  cols="auto"
-                  md="1"
-                  sm="1"
+              <v-col
+                cols="auto"
+                md="1"
+                sm="1"
+              >
+                <v-btn
+                  elevation="1"
+                  :color="s.color"
+                  dark
+                  fab
+                  min-width="0"
+                  small
                 >
-                  <v-btn
-                    elevation="1"
-                    :color="s.color"
-                    dark
-                    fab
-                    min-width="0"
-                    small
-                  >
-                    <v-icon v-text="s.icon" />
-                  </v-btn>
-                </v-col>
+                  <v-icon v-text="s.icon" />
+                </v-btn>
+              </v-col>
 
-                <v-col
-                  cols="auto"
-                  md="1"
-                  sm="1"
+              <v-col
+                cols="auto"
+                md="1"
+                sm="1"
+              >
+                <v-btn
+                  :color="s.color"
+                  dark
+                  icon
+                  min-width="0"
                 >
-                  <v-btn
+                  <v-icon
                     :color="s.color"
-                    dark
-                    icon
-                    min-width="0"
-                  >
-                    <v-icon
-                      :color="s.color"
-                      v-text="s.icon"
-                    />
-                  </v-btn>
-                </v-col>
+                    v-text="s.icon"
+                  />
+                </v-btn>
+              </v-col>
 
-                <v-col
-                  cols="auto"
-                  md="3"
-                  sm="4"
+              <v-col
+                cols="auto"
+                md="3"
+                sm="4"
+              >
+                <v-btn
+                  :color="s.color"
+                  dark
+                  text
                 >
-                  <v-btn
+                  <v-icon
+                    left
                     :color="s.color"
-                    dark
-                    text
-                  >
-                    <v-icon
-                      left
-                      :color="s.color"
-                      v-text="s.icon"
-                    />
-                    {{ s.text }}
-                  </v-btn>
-                </v-col>
-              </v-row>
-            </v-col>
-          </template>
+                    v-text="s.icon"
+                  />
+                  {{ s.text }}
+                </v-btn>
+              </v-col>
+            </v-row>
+          </v-col>
         </v-row>
       </v-card-text>
     </v-card>

@@ -1,8 +1,8 @@
-import axios from 'axios'
+const axios = require('axios').default
 
 const API_URL = 'http://localhost:3000'
 
-export const coinmarketcapService = {
+const coinmarketcapService = {
   getCryptocurrencies: async () => {
     try {
       const response = await axios.get(`${API_URL}/cryptocurrencies`, {
@@ -16,4 +16,6 @@ export const coinmarketcapService = {
       throw error
     }
   }
-} 
+}
+
+module.exports = coinmarketcapService 

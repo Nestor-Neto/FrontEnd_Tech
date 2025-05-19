@@ -69,6 +69,7 @@ export default {
     close () {
       this.dialog = false
       this.$emit('close')
+      this.$router.push('/login')
     },
     onFileChange (file) {
       if (!file) {

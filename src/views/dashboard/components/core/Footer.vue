@@ -29,11 +29,11 @@
           md="auto"
         >
           <div class="text-body-1 font-weight-light pt-6 pt-md-0 text-center">
-            &copy; 2025, Desenvolvido 
+            &copy; 2025, Desenvolvido             
+            por <a href="">Nestor Ribeiro dos Santos Neto</a>
             <v-icon size="18">
               mdi-heart
             </v-icon>
-            por <a href="">Nestor Ribeiro dos Santos Neto</a> para uma melhor web.
           </div>
         </v-col>
       </v-row>
@@ -44,16 +44,11 @@
 <script>
 export default {
   name: 'DashboardCoreFooter',
-
   data: () => ({
     links: [
       {
         href: '#',
-        text: 'Creative Tim'
-      },
-      {
-        href: '#',
-        text: 'About Us'
+        text: 'Sobre'
       },
       {
         href: '#',
@@ -61,7 +56,7 @@ export default {
       },
       {
         href: '#',
-        text: 'Licenses'
+        text: 'Licenças'
       }
     ]
   })

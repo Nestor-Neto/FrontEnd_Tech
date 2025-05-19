@@ -12,5 +12,16 @@ module.exports = {
       localeDir: 'locales',
       enableInSFC: false
     }
+  },
+
+  configureWebpack: {
+    output: {
+      libraryTarget: 'umd'
+    },
+    resolve: {
+      alias: {
+        vue$: 'vue/dist/vue.esm.js'
+      }
+    }
   }
 }

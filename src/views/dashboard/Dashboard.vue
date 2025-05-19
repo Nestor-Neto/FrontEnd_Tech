@@ -106,7 +106,7 @@
 </template>
 
 <script>
-import { coinmarketcapService } from '@/services/coinmarketcap.service'
+import coinmarketcapService from '@/services/coinmarketcap.service'
 import CryptocurrencyCard from '@/components/CryptocurrencyCard.vue'
 
 export default {
