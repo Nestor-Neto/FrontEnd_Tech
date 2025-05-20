@@ -293,30 +293,30 @@ npm run test:e2e -- --open
 
 > ⚠️ **Importante**: Para o primeiro acesso, clique em registrar-se.
 
-<p align="center">
+<div align="center">
   <img src="docs/telas/tela01.png" alt="Inicial de login" width="300"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela02.png" alt="Após clicar em registrar-se, abrirá uma modal para se cadastrar" width="600"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela03.png" alt="Digite email e senha" width="300"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela04.png" alt="Dashboard de criptomoedas" width="900"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela05.png" alt="Detalhes das criptomoedas" width="900"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela06.png" alt="Cadastro de usuários" width="900"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela07.png" alt="Editar perfil" width="900"/>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img src="docs/telas/tela08.png" alt="Botão sair" width="900"/>
-</p>
+</div>
 
 ## 🌐 Internacionalização
 
