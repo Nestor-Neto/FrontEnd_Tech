@@ -318,6 +318,7 @@ npm run test:e2e -- --open
   <img src="docs/telas/tela08.png" alt="Botão sair" width="900"/>
 </div>
 
+
 ## 🌐 Internacionalização
 
 Suporte a múltiplos idiomas através do Vue I18n, com arquivos de tradução organizados no diretório `locales/`.
