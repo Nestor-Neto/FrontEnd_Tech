@@ -52,6 +52,26 @@ class UserService {
       })
     }
   }
+
+  async getAllUsers () {
+    try {
+      const response = await axios.get(`${API_URL}/users`)
+      return response.data
+    } catch (error) {
+      console.error('Erro ao buscar usuários:', error)
+      throw new UserServiceError('Falha ao buscar usuários', error)
+    }
+  }
+
+  async deleteUser (id) {
+    try {
+      const response = await axios.delete(`${API_URL}/users/${id}`)
+      return response.data
+    } catch (error) {
+      console.error('Erro ao deletar usuário:', error)
+      throw new UserServiceError('Falha ao deletar usuário', error, { id })
+    }
+  }
 }
 
 module.exports = new UserService() 

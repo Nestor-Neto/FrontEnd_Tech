@@ -166,7 +166,17 @@ export default {
   },
 
   created () {
-    // Carrega os dados do usuário da sessão quando o componente é criado
+    // Se vier da lista de usuários, pega o usuário da query
+    const userParam = this.$route.query.user
+    if (userParam) {
+      try {
+        this.userUpdate = JSON.parse(userParam)
+        return
+      } catch (e) {
+        // Se der erro, cai no fluxo normal
+      }
+    }
+    // Caso contrário, carrega o usuário logado normalmente
     this.loadUserData()
   },
 

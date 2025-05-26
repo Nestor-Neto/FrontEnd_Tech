@@ -4,12 +4,6 @@
     fluid
     tag="section"
   >
-    <v-row>
-      <v-col cols="12">
-        <h1 class="text-h4 mb-4">Criptomoedas</h1>
-      </v-col>
-    </v-row>
-
     <v-row v-if="loading">
       <v-col cols="12" class="text-center">
         <v-progress-circular
@@ -232,6 +226,18 @@ export default {
 </script>
 
 <style>
+#dashboard {
+  min-height: 100vh;
+}
+
+.theme--light #dashboard {
+  background-color: #f3f3f7 !important;
+}
+
+.theme--dark #dashboard {
+  background-color: #18191a !important;
+}
+
 .info-list-compact {
   display: flex;
   flex-direction: column;
@@ -293,4 +299,5 @@ export default {
   background: transparent !important;
   box-shadow: none !important;
 }
+
 </style>

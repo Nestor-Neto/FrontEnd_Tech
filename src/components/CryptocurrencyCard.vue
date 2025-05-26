@@ -203,11 +203,19 @@ export default {
   font-size: 1.1em;
 }
 
+.theme--dark .info-label {
+  color: #fff !important;
+}
+
 .info-value {
   text-align: right;
   padding: 4px 0;
   font-size: 1.15em;
   font-weight: 500;
+}
+
+.theme--dark .info-value {
+  color: #fff !important;
 }
 
 .v-card-actions {

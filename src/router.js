@@ -31,6 +31,12 @@ const router = new Router({
         },
         // Pages
         {
+          name: 'Lista de Usuários',
+          path: 'pages/users',
+          component: () => import('@/views/dashboard/pages/UsersList.vue'),
+          meta: { requiresAuth: true }
+        },
+        {
           name: 'Perfil do Usuário',
           path: 'pages/user',
           component: () => import('@/views/dashboard/pages/UserProfile'),
@@ -41,7 +47,8 @@ const router = new Router({
           path: 'pages/user/register',
           component: () => import('@/views/dashboard/pages/UserRegister'),
           meta: { requiresAuth: true }
-        }        
+        }
+        
       ]
     }
   ]

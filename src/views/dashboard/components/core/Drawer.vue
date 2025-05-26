@@ -108,15 +108,20 @@ export default {
         group: 'user',
         children: [
           {
-            title: 'Cadastrar',
-            to: '/pages/user/register',
-            icon: 'mdi-account-plus'
+            title: 'Listar Usuários',
+            to: '/pages/users',
+            icon: 'mdi-account-multiple'
           },
           {
             title: 'Editar Perfil',
             to: '/pages/user',
             icon: 'mdi-account-edit',
             exact: true
+          },
+          {
+            title: 'Cadastrar',
+            to: '/pages/user/register',
+            icon: 'mdi-account-plus'
           }
         ]
       }
